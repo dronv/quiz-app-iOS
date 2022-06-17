@@ -14,6 +14,8 @@
 		E0473520285C42C100794782 /* quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047351F285C42C100794782 /* quizTests.swift */; };
 		E047352A285C42C100794782 /* quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0473529285C42C100794782 /* quizUITests.swift */; };
 		E047352C285C42C100794782 /* quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047352B285C42C100794782 /* quizUITestsLaunchTests.swift */; };
+		E0473539285C433400794782 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0473538285C433400794782 /* Question.swift */; };
+		E047353B285C436600794782 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047353A285C436600794782 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E0473525285C42C100794782 /* quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0473529285C42C100794782 /* quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizUITests.swift; sourceTree = "<group>"; };
 		E047352B285C42C100794782 /* quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0473538285C433400794782 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E047353A285C436600794782 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				E0473510285C42C000794782 /* ContentView.swift */,
 				E0473512285C42C100794782 /* Assets.xcassets */,
 				E0473514285C42C100794782 /* Preview Content */,
+				E0473538285C433400794782 /* Question.swift */,
+				E047353A285C436600794782 /* ChoiceTextView.swift */,
 			);
 			path = quiz;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0473539285C433400794782 /* Question.swift in Sources */,
 				E0473511285C42C000794782 /* ContentView.swift in Sources */,
+				E047353B285C436600794782 /* ChoiceTextView.swift in Sources */,
 				E047350F285C42C000794782 /* quizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
